@@ -1,9 +1,9 @@
-package com.springframework.demo.model;
+package com.springframework.petclinic.model;
 
 public class Person {
 
     private String firstName;
-    private String lastname;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -13,11 +13,11 @@ public class Person {
         this.firstName = firstName;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
