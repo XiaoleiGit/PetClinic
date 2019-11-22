@@ -1,4 +1,4 @@
-package demo;
+package com.springframework.petclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class PetClinicApplicationTests {
 
     @Test
-    void contextLoads() {
+    void sayhello() {
+        System.out.println("The test is passed");
     }
 
 }
